@@ -1,0 +1,598 @@
+@media screen and (max-width: 1555px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .-slider-col {
+        width: 880px;
+        max-width: 880px;
+    }
+
+
+    .search {
+        min-width: 250px;
+        margin-left: 20px;
+    }
+
+    .category__all {
+        margin-left: 20px;
+    }
+
+    .providers__item {
+        padding: 0 3px;
+    }
+
+    .providers__list {
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    .providers__item a {
+        padding: 0 12px;
+    }
+
+    .games > .flex-row > .flex-col:first-child {
+        min-width: 375px;
+    }
+
+    .game-of-month {
+        max-width: 450px;
+        min-width: 450px;
+    }
+
+    .statistic {
+        max-width: 280px;
+        min-width: 280px;
+        padding: 10px;
+    }
+
+    .biggest-wins table tr td, .biggest-wins table tr th {
+        padding: 7px;
+    }
+
+    .statistic__item {
+        padding: 10px 0;
+    }
+
+    .statistic__text strong {
+        font-size: 38px;
+    }
+
+    .statistic__text span {
+        font-size: 15px;
+    }
+
+    .footer__bottom {
+        & > .flex-row {
+            flex-wrap: wrap;
+        }
+    }
+
+    .footer__text {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .footer__links {
+        width: 70%;
+    }
+
+    .section-winning__slider {
+        max-width: 980px;
+    }
+
+    *::-ms-backdrop, .section-winning__slider {
+        width: 980px;
+    }
+
+    .fixed-block {
+        right: 0;
+        left: auto;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1555px) and (min-width: 1201px) {
+    .-autorization-col {
+        max-width: 260px;
+        min-width: 260px;
+        padding-top: 15px;
+    }
+
+    .autorization {
+        width: 230px;
+        padding-bottom: 0;
+    }
+
+    .autorization__form {
+        .flex-row {
+            display: block;
+        }
+    }
+
+    .autorization__field.-currency {
+        min-width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .input.-promo-code {
+        width: auto;
+    }
+
+    .autorization__title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .autorization__btn {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 18px;
+    }
+
+    .autorization__btn .link {
+        margin-top: 0;
+    }
+
+    .-autorization-col:after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 980px;
+    }
+
+    .section-biggest-wins {
+        & > .container {
+            & > .flex-row {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+
+    .biggest-wins {
+        margin-top: 40px;
+    }
+
+    .statistic {
+        max-width: 340px;
+        min-width: 340px;
+        padding: 10px 48px;
+    }
+
+    .footer__bottom > .flex-row {
+        flex-direction: column;
+
+        & > .flex-col:first-child {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .footer__links {
+        width: 100%;
+
+    }
+
+    .section-payment ul li {
+        margin: 0 12px;
+    }
+
+    .section-winning__slider {
+        max-width: 760px;
+    }
+
+
+    *::-ms-backdrop, .section-winning__slider {
+        width: 760px;
+    }
+
+    .section-category__row {
+        &:first-child {
+            flex-direction: column-reverse;
+            padding-top: 20px;
+        }
+
+        &:last-child {
+            overflow-x: hidden;
+            position: relative;
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                width: 50px;
+                background: -moz-linear-gradient(left, rgba(18, 23, 38, 0) 0%, rgba(18, 20, 35, 1) 100%);
+                background: -webkit-linear-gradient(left, rgba(18, 23, 38, 0) 0%, rgba(18, 20, 35, 1) 100%);
+                background: linear-gradient(to right, rgba(18, 23, 38, 0) 0%, rgba(18, 20, 35, 1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00121726', endColorstr='#121423', GradientType=1);
+            }
+        }
+    }
+
+    .search {
+        min-width: 390px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .games__item a span.btn {
+        display: none;
+    }
+
+    .games__item.-big a span.btn {
+        display: block;
+    }
+
+    .games > .flex-row > .flex-col:first-child {
+        min-width: 323px;
+    }
+
+    .section-top {
+        & > .container {
+            & > .flex-row {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+    .-slider-col {
+        width: 100%;
+        max-width: 100%;
+        background: #121423;
+    }
+
+    .-autorization-col {
+        margin: 0 auto;
+    }
+
+    .section-payment ul {
+        flex-wrap: wrap;
+    }
+
+    .section-payment ul li {
+        margin: 12px;
+    }
+
+    .autorization {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .-slider-col {
+        margin-left: -15px;
+        margin-right: -15px;
+        width: auto;
+        max-width: none;
+    }
+
+    .main-slider__dots {
+        right: 15px;
+    }
+
+    .category__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+        max-width: 540px;
+    }
+
+    .category {
+        flex-direction: column;
+    }
+
+    .header__links a:not(:last-of-type) {
+        margin-right: 15px;
+    }
+
+    .header__links a {
+        font-size: 15px;
+    }
+
+    .header__account .btn {
+        height: 32px;
+        line-height: 32px;
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    .header__account .btn.-white {
+        line-height: 30px;
+    }
+
+    .main-slider__arrows {
+        top: 30px;
+    }
+
+    .main-slider__text {
+        top: 80px;
+    }
+
+    .slide-text__subtitle {
+        margin-bottom: 15px;
+    }
+
+    .slide-text__title {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .section-winning .flex-row {
+        display: block;
+    }
+
+    .section-winning__title {
+        margin-bottom: 30px;
+    }
+
+    .game-of-month {
+        max-width: 400px;
+        min-width: 400px;
+    }
+
+    .statistic {
+        max-width: 300px;
+        min-width: 300px;
+        padding: 10px 20px;
+    }
+
+    .section-winning__slider {
+        max-width: 100%;
+    }
+
+    *::-ms-backdrop, .section-winning__slider {
+        width: 100%;
+    }
+
+    .games > .flex-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .games.-big-right > .flex-row > .flex-col:first-child {
+        order: 0;
+    }
+
+    .games__item {
+        margin-bottom: 10px;
+    }
+
+    .games > .flex-row > .flex-col:first-child {
+        margin-right: 0;
+    }
+
+    .games.-big-right > .flex-row > .flex-col:first-child {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-biggest-wins > .container > .flex-row {
+        display: block;
+    }
+
+    .game-of-month {
+        max-width: 585px;
+        min-width: 0;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+
+    .statistic {
+        margin-right: -15px;
+        margin-left: -15px;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 300px;
+        padding: 10px 20px;
+
+        &__item {
+            min-width: 240px;
+        }
+    }
+
+    .biggest-wins {
+        margin-right: -15px;
+        margin-left: -15px;
+        width: auto;
+    }
+
+    .header .flex-row {
+        flex-direction: column;
+    }
+
+    .header__logo {
+        margin: 20px 0;
+    }
+
+    .slide-text__p {
+        display: none;
+    }
+
+    .slide-text__title:after {
+        margin-top: 10px;
+    }
+
+    .footer-links__list {
+        min-width: 0;
+    }
+
+    .footer-links {
+        justify-content: space-between;
+        margin-left: -10px;
+        margin-right: -10px;
+
+        & > .flex-col {
+            padding: 0 10px;
+        }
+    }
+
+    .fixed-block {
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-links {
+        flex-wrap: wrap;
+    }
+
+    .footer-links > .flex-col {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    .main-slider__arrows {
+        display: none;
+    }
+
+    .main-slider__text {
+        top: 20px;
+        left: 15px;
+    }
+
+    .main-slider__dots {
+        left: 15px;
+    }
+
+    .winning-slider .slick-arrow {
+        display: none;
+    }
+
+    .winning-slider__inner {
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slide-text__subtitle {
+        margin-bottom: 10px;
+    }
+
+    .slide-text__title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    .main-slider__dots {
+        bottom: 10px;
+    }
+
+    .-autorization-col {
+        min-width: 0;
+    }
+
+    .search {
+        min-width: 0;
+    }
+
+    .-search-col {
+        width: 100%;
+    }
+
+    .category__item {
+        padding: 5px;
+    }
+
+    .games > .flex-row > .flex-col:last-child {
+        .flex-row {
+            flex-wrap: wrap;
+
+            .games__item {
+                width: 50%;
+            }
+        }
+    }
+
+    .section-games__title {
+        font-size: 20px;
+    }
+
+    .view-all {
+        font-size: 16px;
+    }
+
+    .footer-links__title {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+
+    .footer__text {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .footer__bottom > .flex-row > .flex-col:first-child {
+        flex-direction: column;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .footer__logo {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer-links {
+        text-align: center;
+    }
+
+    .game-of-month__text {
+        width: auto;
+        left: 15px;
+        right: 15px;
+        margin-left: 0;
+    }
+
+    .game-of-month {
+        width: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 0;
+    }
+
+    .statistic {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .section-games__top {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .section-games__title {
+        margin-bottom: 10px;
+    }
+
+    .games > .flex-row > .flex-col:first-child {
+        min-width: 0;
+    }
+
+    .autorization__field.-password {
+        width: 180px;
+        min-width: 180px;
+        max-width: 180px;
+    }
+
+    .autorization {
+        width: 100%;
+    }
+
+    .slide-text__btn {
+        display: none;
+    }
+}

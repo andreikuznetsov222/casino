@@ -1,0 +1,17 @@
+@import 'parts/normalize';
+@import 'parts/variables';
+@import 'parts/fonts';
+@import 'parts/mixins';
+@import 'parts/flex';
+@import 'parts/icons';
+@import 'parts/svg-symbol-sprite';
+@import 'parts/svg-css-sprite';
+@import 'parts/sprite';
+@import 'parts/input-placeholder';
+@import 'parts/select2';
+@import 'parts/slick';
+@import 'parts/main';
+@import 'parts/media';
+
+
+

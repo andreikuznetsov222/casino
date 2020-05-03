@@ -1,0 +1,183 @@
+.icon {
+    display: block;
+
+    &-newgames {
+        width: 27px;
+        min-width: 27px;
+        height: 27px;
+    }
+
+    &-popular {
+        width: 22px;
+        min-width: 22px;
+        height: 20px;
+    }
+
+    &-slots {
+        width: 28px;
+        min-width: 28px;
+        height: 20px;
+    }
+
+    &-casinolive {
+        width: 19px;
+        min-width: 19px;
+        height: 17px;
+    }
+
+    &-tablegames {
+        width: 19px;
+        min-width: 19px;
+        height: 19px;
+    }
+
+    &-favorites {
+        width: 24px;
+        min-width: 24px;
+        height: 21px;
+    }
+
+    &-card {
+        width: 75px;
+        min-width: 75px;
+        height: 75px;
+    }
+
+    &-flag {
+        width: 72px;
+        min-width: 72px;
+        height: 71px;
+    }
+
+    &-gamble {
+        width: 77px;
+        min-width: 77px;
+        height: 75px;
+    }
+
+    &-neteller {
+        width: 164px;
+        min-width: 164px;
+        height: 29px;
+    }
+
+    &-skrill {
+        width: 85px;
+        min-width: 85px;
+        height: 30px;
+    }
+
+    &-cubits {
+        width: 156px;
+        min-width: 156px;
+        height: 41px;
+    }
+
+    &-mastercard {
+        width: 53px;
+        min-width: 53px;
+        height: 42px;
+    }
+
+    &-visa {
+        width: 103px;
+        min-width: 103px;
+        height: 34px;
+    }
+
+    &-qiwi {
+        width: 81px;
+        min-width: 81px;
+        height: 37px;
+    }
+
+    &-yandex {
+        width: 134px;
+        min-width: 134px;
+        height: 31px;
+    }
+
+    &-bet365 {
+        width: 82px;
+        min-width: 82px;
+        height: 18px;
+    }
+
+    &-evolutiongaming {
+        width: 129px;
+        min-width: 129px;
+        height: 14px;
+    }
+
+    &-microgaming {
+        width: 77px;
+        min-width: 77px;
+        height: 17px;
+    }
+
+    &-pariplay {
+        width: 91px;
+        min-width: 91px;
+        height: 22px;
+    }
+
+    &-playson {
+        width: 91px;
+        min-width: 91px;
+        height: 18px;
+    }
+
+    &-pragmatic {
+        width: 92px;
+        min-width: 92px;
+        height: 36px;
+    }
+
+    &-spotoption {
+        width: 92px;
+        min-width: 92px;
+        height: 22px;
+    }
+
+    &-vivo {
+        width: 91px;
+        min-width: 91px;
+        height: 44px;
+    }
+
+    &-yggdrasil {
+        width: 91px;
+        min-width: 91px;
+        height: 18px;
+    }
+
+    &-lastplayed {
+        width: 20px;
+        min-width: 20px;
+        height: 20px;
+    }
+
+    &-arrow-slide {
+        width: 33px;
+        min-width: 33px;
+        height: 33px;
+    }
+
+    &-icon18 {
+        width: 54px;
+        min-width: 54px;
+        height: 55px;
+    }
+
+    &-america {
+        width: 25px;
+        min-width: 25px;
+        height: 25px;
+    }
+
+    &-message {
+        width: 29px;
+        min-width: 29px;
+        height: 28px;
+    }
+}

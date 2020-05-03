@@ -1,0 +1,44 @@
+.label-new {
+  background: url("../images/svgcss/svg-css-sprite-e1e99e9e.svg") 0 37.5% no-repeat;
+}
+
+.label-new {
+  width: 100px;
+  height: 30px;
+}
+
+.label-new-sm {
+  background: url("../images/svgcss/svg-css-sprite-e1e99e9e.svg") 98.55072463768116% 66.66666666666667% no-repeat;
+}
+
+.label-new-sm {
+  width: 48px;
+  height: 20px;
+}
+
+.label-popular {
+  background: url("../images/svgcss/svg-css-sprite-e1e99e9e.svg") 0 75% no-repeat;
+}
+
+.label-popular {
+  width: 68px;
+  height: 30px;
+}
+
+.label-popular-sm {
+  background: url("../images/svgcss/svg-css-sprite-e1e99e9e.svg") 0 100% no-repeat;
+}
+
+.label-popular-sm {
+  width: 64px;
+  height: 20px;
+}
+
+.label-recommends {
+  background: url("../images/svgcss/svg-css-sprite-e1e99e9e.svg") 0 0 no-repeat;
+}
+
+.label-recommends {
+  width: 117px;
+  height: 30px;
+}
