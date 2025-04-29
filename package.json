@@ -13,7 +13,7 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^6.1.1",
-    "gulp-pug": "^4.0.1",
+    "gulp-pug": "^5.0.0",
     "gulp-rigger": "^0.5.8",
     "gulp-rucksack": "^0.1.4",
     "gulp-sourcemaps": "^1.12.1",
